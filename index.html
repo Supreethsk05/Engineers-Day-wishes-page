@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Engineers' Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="overlay"></div>  
+
+    <div class="container">
+        <h1 class="title">
+            <span>H</span>
+            <span>a</span>
+            <span>p</span>
+            <span>p</span>
+            <span>y</span>
+            <span>&nbsp;</span>   
+            <span>E</span>
+            <span>n</span>
+            <span>g</span>
+            <span>i</span>
+            <span>n</span>
+            <span>e</span>
+            <span>e</span>
+            <span>r</span>
+            <span>s</span>
+            <span>'</span>
+            <span>&nbsp;</span> 
+            <span>D</span>
+            <span>a</span>
+            <span>y</span>
+            <span>!</span>
+        </h1>
+        
+        <div class="branches">
+            <button data-bg="images/cs.jpeg" onclick="showBranchInfo('Computer')">Computer Science & Engineering</button>
+            <button data-bg="images/mech.jpeg" onclick="showBranchInfo('Mechanical')">Mechanical Engineering</button>
+            <button data-bg="images/ec.jpeg" onclick="showBranchInfo('Electrical')">Electrical Engineering</button>
+            <button data-bg="images/chem.jpeg" onclick="showBranchInfo('Chemical')">Chemical Engineering</button>
+            <button data-bg="images/aero.jpg" onclick="showBranchInfo('Aerospace')">Aerospace Engineering</button>
+            <button data-bg="images/civil.jpg" onclick="showBranchInfo('Civil')">Civil Engineering</button>
+
+        </div>
+        <div class="branch-info" id="branchInfo">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
