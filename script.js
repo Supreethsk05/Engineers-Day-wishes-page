@@ -47,7 +47,6 @@ function showBranchInfo(branch) {
         btn.classList.remove('selected');
     });
 
-    // Make the clicked button fully opaque and add 'selected' class
     event.target.style.opacity = 1;
     event.target.classList.add('selected');
 
